@@ -25,97 +25,59 @@
             position: relative;
             margin: 5px;
         }
+
+        .margin1 {
+            margin: 1em;
+        }
+
+        .margin2 {
+            margin: 2em;
+        }
+
     </style>
 </head>
 <body>
 
     <div class="main-header">
-    <h1>edabit | Exercises!</h1>
+        <h1>edabit | Exercises!</h1>
     </div>
 
-<script>
+        <h2 class="margin1">Exercise 1: Return The Sum of Two Numbers</h2>
 
-// Return the sum of two numbers
+            <p class="margin2">
+                <b><u>My Solution:</u></b><br>
+                function addition (a, b) { <br>
+                return (a + b); <br>
+                }
+            </p>
 
-    function addition (a, b) {
-        return (a + b);
-    }
-    // console.log("The sum of a and b = "); // log comment
-    // console.log(addition(5, 5)); // output 10
+            <p class="margin2">
+                <b><u>Console Testing:</u></b><br>
+                console.log("The sum of a and b = "); // log comment <br>
+                console.log(addition(5, 5)); // output 10
+            </p>
 
-/************************************************************/
+    <h2 class="margin1">Exercise 2: Compare Strings by Count of Characters</h2>
 
-// Compare strings by count of characters
-
-    function comp(str1, str2) {
-        if (str1.length == str2.length) {
-            return true;
-        } else {
-            return false;
+    <p class="margin2">
+        <b><u>My Solution:</u></b><br>
+        function comp(str1, str2) { <br>
+        if (str1.length == str2.length) { <br>
+        return true; <br>
+        } else { <br>
+        return false; <br>
+        } <br>
         }
-    }
+    </p>
 
-    // console.log("True or False? The length of 'AB' and 'CD' strings are equal."); // log comment
-    // console.log(comp("AB","CD")); // output is true
-
-/************************************************************/
-
-// Is this string empty?
-    function isEmpty(s) {
-        if (s === ""){
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    // console.log(isEmpty(" "));
-    // console.log(isEmpty(""));
-    // console.log(isEmpty("a"));
-
-/************************************************************/
-
-// Correct the Mistakes
-    // TODO: Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
-
-
-    // TODO: The below function needs to be corrected. Examples of what it needs to accomplish: squared(5) ➞ 25, squared(9) ➞ 81, squared(100) ➞ 10000.
-    // function squaed(b) {
-    //     return $a*$a;
-    // }
-
-    // TODO: The below is the code I've corrected.
-    function squared(b) {
-        return b*b;
-    }
-
-    // console.log(squared(10));
-    // console.log(squared(69));
-
-/************************************************************/
-
-// Is the number less than or equal to zero?
-
-    //TODO: Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
-
-    function lessThanOrEqualToZero(num) {
-        if (num <= 0) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    // console.log(lessThanOrEqualToZero(5));
-    // console.log(lessThanOrEqualToZero(0));
+    <p class="margin2">
+        <b><u>Console Testing:</u></b><br>
+        console.log("True or False? The length of 'AB' and 'CD' strings are equal."); // log comment<br>
+        console.log(comp("AB","CD")); // output is true
+    </p>
 
 
 
-
-
-
-
-</script>
 
 </body>
 </html>
