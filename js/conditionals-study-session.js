@@ -35,7 +35,7 @@ function toTheThird(x) {
 // console.log(toTheThird("cat")); // false
 
 
-// Define a function named lowerCase that takes in a single input. If the input is not a string, return false. If the input is a non-numeric string, then return it with all the letters capitalized. (look up palindrome).
+// Define a function named lowerCase that takes in a single input. If the input is not a string, return false. If the input is a non-numeric string, then return it with all the letters lowercase. (look up palindrome).
 
 function lowerCase(x) {
     if (!isNaN(parseFloat(x))) {
@@ -71,7 +71,7 @@ function sumOfCubes(x, y) {
 // console.log(sumOfCubes("cat", "dog")); //false
 
 
-// Write a function named divide that takes in two inputs. If both inputs provided are numeric, divide returns the result of the first input multiplied by the second. If either or both inputs are not numeric, divide should return false.
+// Write a function named divide that takes in two inputs. If both inputs provided are numeric, divide returns the result of the first input divided by the second. If either or both inputs are not numeric, divide should return false.
 
 function divide(x, y) {
     x = parseFloat(x);
@@ -131,12 +131,12 @@ function getLowestNumber(x, y, z) {
     } else return false;
 }
 
-console.log(getLowestNumber(1, 15, 30)); // 1
-console.log(getLowestNumber(true, false, true)); // false
-console.log(getLowestNumber("1", "15", "30")); // 1
-console.log(getLowestNumber("cat", "dog", "hippopotamus")); // false
-console.log(getLowestNumber(1, "otter", 30)); // false
-console.log(getLowestNumber(-53, 72, 7)); // -53
+// console.log(getLowestNumber(1, 15, 30)); // 1
+// console.log(getLowestNumber(true, false, true)); // false
+// console.log(getLowestNumber("1", "15", "30")); // 1
+// console.log(getLowestNumber("cat", "dog", "hippopotamus")); // false
+// console.log(getLowestNumber(1, "otter", 30)); // false
+// console.log(getLowestNumber(-53, 72, 7)); // -53
 
 
 
