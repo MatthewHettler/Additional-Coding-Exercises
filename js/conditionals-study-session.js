@@ -111,6 +111,19 @@ function reverseUpperCaseString(x) {
     }
 }
 
+//=== OR ===//
+
+function reverseUpperCaseString(input) {
+    if(!isNaN(parseFloat(input))) {
+        return false;
+    }else if (typeof input !== "string") {
+        return false;
+    }else{
+        var input2 = (input.split("").reverse().join("")).toUpperCase();
+        return  input2 === input.toUpperCase();
+    }
+}
+
 // console.log(reverseUpperCaseString(true)); // false
 // console.log(reverseUpperCaseString(18)); // false
 // console.log(reverseUpperCaseString("15")); // false
